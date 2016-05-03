@@ -246,7 +246,7 @@ function resetHighLight (e) {
 var geoJsonLayer = 0;
 /* POLYGON OVERLAY */
 // load polygon geojson, using data to define fillColor, from local directory
-$.getJSON("cwp-37-towns-v8.geojson", function (data) {   
+$.getJSON("cwp-37-towns-v8.json", function (data) {   
   geoJsonLayer = L.geoJson(data, {
     style: style,
     onEachFeature: function( feature, layer) {
