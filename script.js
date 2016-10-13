@@ -54,13 +54,13 @@ function resetAttribute (tabnum){
     .setPrefix('Reference:' + '<br />' + '2010-2014 American Community Survey 5-Year Estimates' + '<br />' + 'View <a href="http://github.com/ngocdo67/leaflet-map-panes">code on GitHub</a>, created with' + '<br />' +  '<a href="http://leafletjs.com" title="A JS library for interactive maps">Leaflet</a>');
   } else if (tabnum.localeCompare("3") == 0) {
     map.attributionControl
-    .setPrefix('Reference:' + '<br />' + '2009-2013 American Community Survey 5-Year Estimates' + '<br />' + 'View <a href="http://github.com/ngocdo67/leaflet-map-panes">code on GitHub</a>, created with' + '<br />' +  '<a href="http://leafletjs.com" title="A JS library for interactive maps">Leaflet</a>');
+    .setPrefix('Reference:' + '<br />' + '2010-2014 American Community Survey 5-Year Estimates' + '<br />' + 'View <a href="http://github.com/ngocdo67/leaflet-map-panes">code on GitHub</a>, created with' + '<br />' +  '<a href="http://leafletjs.com" title="A JS library for interactive maps">Leaflet</a>');
   } else if (tabnum.localeCompare("4") == 0) {
     map.attributionControl
-    .setPrefix('Reference:' + '<br />' + '2009-2013 American Community Survey 5-Year Estimates' + '<br />' + 'View <a href="http://github.com/ngocdo67/leaflet-map-panes">code on GitHub</a>, created with' + '<br />' +  '<a href="http://leafletjs.com" title="A JS library for interactive maps">Leaflet</a>');
+    .setPrefix('Reference:' + '<br />' + '2010-2014 American Community Survey 5-Year Estimates' + '<br />' + 'View <a href="http://github.com/ngocdo67/leaflet-map-panes">code on GitHub</a>, created with' + '<br />' +  '<a href="http://leafletjs.com" title="A JS library for interactive maps">Leaflet</a>');
   } else if (tabnum.localeCompare("5") == 0) {
     map.attributionControl
-    .setPrefix('Reference:' + '<br />' + '2015 CT Dept. of Labor	' + '<br />' + 'View <a href="http://github.com/ngocdo67/leaflet-map-panes">code on GitHub</a>, created with' + '<br />' +  '<a href="http://leafletjs.com" title="A JS library for interactive maps">Leaflet</a>');
+    .setPrefix('Reference:' + '<br />' + '2016 CT Dept. of Labor	' + '<br />' + 'View <a href="http://github.com/ngocdo67/leaflet-map-panes">code on GitHub</a>, created with' + '<br />' +  '<a href="http://leafletjs.com" title="A JS library for interactive maps">Leaflet</a>');
   }
 }
 
