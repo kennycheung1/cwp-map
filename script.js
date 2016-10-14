@@ -246,7 +246,7 @@ function resetHighLight (e) {
 var geoJsonLayer = 0;
 /* POLYGON OVERLAY */
 // load polygon geojson, using data to define fillColor, from local directory
-$.getJSON("map no served.geojson", function (data) {   
+$.getJSON("All updated 10-2016.geojson", function (data) {   
   geoJsonLayer = L.geoJson(data, {
     style: style,
     onEachFeature: function( feature, layer) {
